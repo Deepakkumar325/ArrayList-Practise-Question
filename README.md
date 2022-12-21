@@ -1,8 +1,10 @@
 # ArrayList-Practise-Question
+
 import java.util.ArrayList;
+
 public class Main
 {
-	public static void main(String[] args) {
+public static void main(String[] args) {
 	    // java Collections Framework
 	    
 	 ArrayList<Integer> list = new ArrayList<>();
