@@ -42,5 +42,7 @@ public static void main(String[] args) {
 	 for(int i=0;i<list.size();i++){
 	     System.out.println(list.get(i) +" "+);
 	 }
+	 // Sorting assending order
+	 Collections.sort(list,collections.reverseorder())
 	}
 }
