@@ -46,3 +46,39 @@ public static void main(String[] args) {
 	 Collections.sort(list,collections.reverseorder())
 	}
 }
+}
+
+<!-- Multidaimensonal ArrayList -->
+ ArrayList<ArrayList<Integer>> mainlist = new ArrayList<>();
+     ArrayList<Integer> list = new ArrayList<>();
+	 list.add(1);   
+	 list.add(2);
+	 mainlist.add(list);
+	
+   ArrayList<Integer> list2 = new ArrayList<>();
+	 list2.add(3);
+	 list2.add(6);
+	 mainlist.add(list2);
+	 
+	 for(int i=0;i<mainlist.size();i++)
+	{
+	    System.out.println(mainlist.get(i)+" ");
+	    
+	}
+						
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
