@@ -61,7 +61,7 @@ public static void main(String[] args) {
 	//second list 
 	
    ArrayList<Integer> list2 = new ArrayList<>();
-	 list2.add(3);
+	list2.add(3);
 	 list2.add(6);
 	 mainlist.add(list2);
 	 
