@@ -49,17 +49,23 @@ public static void main(String[] args) {
 }
 
 <!-- Multidaimensonal ArrayList -->
- ArrayList<ArrayList<Integer>> mainlist = new ArrayList<>();
+    ArrayList<ArrayList<Integer>> mainlist = new ArrayList<>();
+	
+	// one list 
+	
      ArrayList<Integer> list = new ArrayList<>();
 	 list.add(1);   
 	 list.add(2);
 	 mainlist.add(list);
+	 
+	//second list 
 	
    ArrayList<Integer> list2 = new ArrayList<>();
 	 list2.add(3);
 	 list2.add(6);
 	 mainlist.add(list2);
 	 
+	 .../ print list 
 	 for(int i=0;i<mainlist.size();i++)
 	{
 	    System.out.println(mainlist.get(i)+" ");
